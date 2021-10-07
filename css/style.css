@@ -32,8 +32,20 @@ header{
     width: 32%;
     position: relative;
 }
-.article .img-preview{
+.img-container{
+    position: relative;
+}
+.article .img-preview,.img-preview-hover{
     width: 100%;
+}
+.article .img-preview-hover{
+    display: none;
+}
+.article:hover .img-preview{
+    display: none;
+}
+.article:hover .img-preview-hover{
+    display: inline-block;
 }
 .article .fav{
     position: absolute;
@@ -44,4 +56,7 @@ header{
     padding: 2%;
     border-top-left-radius: 3px;
     border-bottom-left-radius: 3px;
+}
+.article .fav:hover{
+    color: red;
 }
