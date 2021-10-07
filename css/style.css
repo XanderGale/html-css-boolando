@@ -59,22 +59,25 @@ header{
 }
 .article .fav:hover{
     color: red;
+    cursor: pointer;
 }
-.article .discount-50{
+.article .info-container{
     position: absolute;
-    bottom: 10px;
+    bottom: 4%;
     left: 0;
+    width: 100%;
+    text-align: left;
+}
+.article .discount{
     background-color: red;
-    text-align: center;
     padding: 1%;
     color: white;
 }
 .article .green{
-    position: absolute;
-    bottom: 10px;
-    left: 30px;
     background-color: green;
-    text-align: center;
     padding: 1%;
     color: white;
+}
+.article-info{
+    
 }
