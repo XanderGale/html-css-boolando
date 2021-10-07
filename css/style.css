@@ -60,3 +60,21 @@ header{
 .article .fav:hover{
     color: red;
 }
+.article .discount-50{
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: red;
+    text-align: center;
+    padding: 1%;
+    color: white;
+}
+.article .green{
+    position: absolute;
+    bottom: 10px;
+    left: 30px;
+    background-color: green;
+    text-align: center;
+    padding: 1%;
+    color: white;
+}
