@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 /* Body */
@@ -26,6 +27,7 @@ header{
 }
 .row{
     text-align: center;
+    margin-bottom: 3%;
 }
 .article{
     display: inline-block;
@@ -79,5 +81,25 @@ header{
     color: white;
 }
 .article-info{
-    
+    position: relative;
+    top: 0;
+    background-color: white;
+    text-align: left;
+}
+.article-info .sign{
+    font-size: 10px;
+    font-weight:normal;
+}
+.article-info .model{
+    font-size: 18px;
+}
+.article-info .price{
+    font-weight: bold;
+    font-size: 12px;
+    color: red;
+}
+.article-info .discount-price{
+    font-weight: lighter;
+    font-size: 12px;
+    text-decoration: line-through;
 }
