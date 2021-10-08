@@ -63,9 +63,9 @@ header{
     color: red;
     cursor: pointer;
 }
-.article .info-container{
+.img-container .info-container{
     position: absolute;
-    top: 85%;
+    bottom: 5%;
     left: 0;
     width: 100%;
     text-align: left;
